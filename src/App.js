@@ -12,6 +12,9 @@ import Notes from './containers/Notes'
 import ProtectedRoute from "./components/ProtectedRoute";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import Header from "./components/Header";
+import QuizMain from "./QuizzApp/QuizMain";
+import QuizParticular from "./QuizzApp/QuizParticular";
+import StartQuiz from "./QuizzApp/StartQuiz";
 
 
 
@@ -39,6 +42,9 @@ function App() {
               <Route path="/notes" element={<Notes />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
+              <Route path="/quizmain" element={<QuizMain />} />
+              <Route path="/quizparticular" element={<QuizParticular />} />
+              <Route path="/startquiz" element={<StartQuiz />} />
             </Routes>
           </UserAuthContextProvider>
         </Col>
