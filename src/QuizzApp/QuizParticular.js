@@ -3,26 +3,26 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 const QuizParticular = () => {
     return (
         <>
-            <Container fluid>
-                <Row>
-                    <Col>Quiz1</Col>
-                    <Col><Button variant="primary" href="/startquiz">Take Quiz</Button></Col>
+            <Container fluid className="mt-5">
+                <Row className="shadow p-3 mb-3 bg-body rounded">
+                    <Col className="fs-4 text-start ">Quiz1</Col>
+                    <Col className="text-end"><Button variant="primary" href="/startquiz">Attempt</Button></Col>
                 </Row>
-                <Row>
-                    <Col>Quiz2</Col>
-                    <Col><Button variant="primary" href="/startquiz">Take Quiz</Button></Col>
+                <Row className="shadow p-3 mb-3 bg-body rounded">
+                    <Col className="fs-4 text-start">Quiz2</Col>
+                    <Col className="text-end"><Button variant="primary" href="/startquiz">Attempt</Button></Col>
                 </Row>
-                <Row>
-                    <Col>Quiz3</Col>
-                    <Col><Button variant="primary" href="/startquiz">Take Quiz</Button></Col>
+                <Row className="shadow p-3 mb-3 bg-body rounded">
+                    <Col className="fs-4 text-start">Quiz3</Col>
+                    <Col className="text-end"><Button variant="primary" href="/startquiz">Attempt</Button></Col>
                 </Row>
-                <Row>
-                    <Col>Quiz4</Col>
-                    <Col><Button variant="primary" href="/startquiz">Take Quiz</Button></Col>
+                <Row className="shadow p-3 mb-3 bg-body rounded">
+                    <Col className="fs-4 text-start">Quiz4</Col>
+                    <Col className="text-end"><Button variant="primary" href="/startquiz">Attempt</Button></Col>
                 </Row>
-                <Row>
-                    <Col>Quiz5</Col>
-                    <Col><Button variant="primary" href="/startquiz">Take Quiz</Button></Col>
+                <Row className="shadow p-3 mb-3 bg-body rounded">
+                    <Col className="fs-4 text-start">Quiz5</Col>
+                    <Col className="text-end"><Button variant="primary" href="/startquiz">Attempt</Button></Col>
                 </Row>
             </Container>
         </>

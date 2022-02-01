@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
+// import "./App.css";
 import Home from "./containers/Home";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
     <Header />
-    <Container style={{ width: "400px" }}>
+    <Container>
       <Row>
         <Col>
           <UserAuthContextProvider>

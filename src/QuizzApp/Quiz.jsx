@@ -1,8 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import './quiz_app.css';
+// import {db} from '../firebase'
+// import { collection, getDocs } from 'firebase/firestore'
 
 const Quiz_App = () => {
+
+    // const quizCollctRef = collection(db, "quizzes")
+    // useEffect(() => {
+    //     const getQuiz = async () => {
+    //         const data = await getDocs(quizCollctRef)
+    //         console.log(data)
+    //     }
+    //     getQuiz()
+    // }, [])
 
     const state = useSelector(state => state)
     const [question, setQuestion] = useState(state)

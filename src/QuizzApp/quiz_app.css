@@ -3,9 +3,9 @@
     text-align: center;
     background-color: black;
 }
-.container{
+/* .container{
     width: 40%;
-}
+} */
 @media screen and (max-width: 1125px) {
     .container{
         width: 50%;
